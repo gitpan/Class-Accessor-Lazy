@@ -1,5 +1,6 @@
 package Class::Accessor::Lazy;
 use strict;
+use 5.006;
 use base 'Class::Accessor';
 $Class::Accessor::Lazy::VERSION = '0.34';
 use Class::Accessor::Lazy::Original;
